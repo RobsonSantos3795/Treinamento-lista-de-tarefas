@@ -1,0 +1,51 @@
+.remover {
+    color: black;
+    background: red;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-size: 0,3em;
+    font-weight: bold;
+    transition: background-color 0,3s ease;
+    margin: 6px;
+    cursor: pointer;
+}
+.remover:hover {
+    background: orange;
+    color: white;
+}
+
+#cor {
+    background: greenyellow;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 5px;
+}
+
+:placeholder-shown {
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+label {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    display: list-item;
+    text-align: center;
+    background: rgb(221, 206, 187);
+}
