@@ -1,0 +1,47 @@
+body {
+    display: list-item;
+    text-align: center;
+}
+.remover {
+    border-radius: 7px;
+    transition: background 0,3s ease;
+    background: red;
+    margin: 3px
+}
+.remover:hover {
+    background: orange;
+    color: white;
+    font-weight: bold;
+    padding: 8px 13px;
+    cursor: pointer
+}
+li {
+    color: green;
+    font-weight: bold;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+#cor {
+    margin: 3px;
+    border-radius: 7px;
+    background: greenyellow;
+    color: black;
+    font-weight: bold;
+    transition: 0,3 ease;
+}
+#cor:hover {
+    cursor: pointer;
+    padding: 8px 15px;
+}
+#mensagem {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+:placeholder-shown {
+    text-align: center;
+    cursor: pointer;
+}
+label {
+    font-weight: bold;
+}
