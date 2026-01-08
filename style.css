@@ -1,47 +1,70 @@
 body {
     display: list-item;
-    text-align: center;
+    
+}
+.editar {
+    border-radius: 7px;
+    background: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 5px;
+    transition: background 0,3s ease;
+    cursor: pointer;
+}
+.editar:hover {
+    background: yellow;
+    font-size: 23px;
 }
 .remover {
     border-radius: 7px;
+    background: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 5px;
     transition: background 0,3s ease;
-    background: red;
-    margin: 3px
+    cursor: pointer;
 }
 .remover:hover {
-    background: orange;
-    color: white;
-    font-weight: bold;
-    padding: 8px 13px;
-    cursor: pointer
+    background: red;
+    font-size: 23px;
 }
-li {
-    color: green;
+.adicionar {
+    background: greenyellow;
     font-weight: bold;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.adicionar:hover {
+    background: green;
+    font-size: 23px;
+}
+#mensagem {
+    font-weight: bold;
+}
+label {
+    font-weight: bold;
+    font-size: 22px;
+}
+:placeholder-shown {
+    text-align: center;
+}
+#inputTarefa {
+    border-radius: 3px;
+    font-size: 20px;
 }
 h1 {
     font-family: 'Times New Roman', Times, serif;
 }
-#cor {
-    margin: 3px;
+.limpar {
+    background: rgb(224, 115, 115);
+    font-weight: bold;
     border-radius: 7px;
-    background: greenyellow;
-    color: black;
-    font-weight: bold;
-    transition: 0,3 ease;
-}
-#cor:hover {
-    cursor: pointer;
-    padding: 8px 15px;
-}
-#mensagem {
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-}
-:placeholder-shown {
-    text-align: center;
     cursor: pointer;
+    transition: background 0,3s ease;
 }
-label {
-    font-weight: bold;
+.limpar:hover {
+    background: red;
+    font-size: 23px;
 }
