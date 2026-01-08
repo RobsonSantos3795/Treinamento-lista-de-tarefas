@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" type="image/png" href="">
-    <title>Nona_Aplicacao</title>
+    <title>Lista-de-tarefas</title>
 </head>
 <body>
-    <h1>Nona Aplicação</h1>
+    <h1>Lista de Tarefas</h1>
 
-    <label for="texto">Insira sua Tarefa:</label>
+    <label for="tarefa">Insira sua tarefa:</label>
     <input type="text" id="inputTarefa" placeholder="Insira uma tarefa" name="tarefa">
-    <button id="cor" onclick="adicionarTarefa()" onmouseenter="entrou()" onmouseout="saiu()">Adicionar Tarefa</button>
+    <button class="adicionar" onclick="adicionarTarefa()">Adicionar Tarefa</button>
+    <button class="limpar" id="btnLimparTudo" onclick="limparTarefa()" style="display: none; background-color: red; color: white;">
+    Limpar Tudo
+    </button>
 
     <p id="mensagem"></p>
+    <ul id="lista"></ul>
 
-    <ul id="listaTarefa"></ul>
+    <script type="text/javascript" src="script2.js"></script>
     
-    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
